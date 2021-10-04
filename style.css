@@ -71,3 +71,43 @@ img {
 .clear {
   clear: both;
 }
+
+/* responsive */
+
+   @media all and (max-width:420px){
+    .container{
+    display: flex;
+  }
+
+  .row{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row .left{
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .row .right{
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .row .central{
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .row img{
+    height: 150px;
+    width: 160px;
+  }  
+  
+  #logo{
+    width: 90px;
+    height: 90px;
+  } 
+}   
+
